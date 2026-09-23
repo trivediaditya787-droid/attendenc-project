@@ -150,6 +150,66 @@ form select {
     font-size: 16px;
     box-sizing: border-box;
 }
+  /* Mobile Responsive Design */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    nav {
+        padding: 10px 5px;
+    }
+
+    nav a {
+        padding: 8px 10px;
+        margin: 3px;
+        font-size: 14px;
+    }
+
+    main {
+        width: 90%;
+        padding: 20px 10px;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    .summary {
+        display: block;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    form {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 8px 5px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
 
 form input[type="radio"] {
     margin: 10px 5px 10px 15px;
